@@ -19,14 +19,14 @@ public class Fifo {
     this.end = aux;
   }
 
-  public Node shift() {
+  public String shift() {
     if (this.initial == null)
       return null;
     var node = this.initial;
     this.initial = node.next;
     if (this.initial != null)
       this.initial.previous = null;
-    return node;
+    return node.matricula;
   }
 
   public void display() {

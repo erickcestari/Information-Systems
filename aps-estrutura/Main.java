@@ -29,12 +29,12 @@ public class Main {
           fifo.push(age, matricula);
           break;
         case 2:
-          Node node = fifo.shift();
-          if (node == null) {
+          var matriculaResult = fifo.shift();
+          if (matriculaResult == null) {
             System.out.println("Base vazia.");
             break;
           }
-          System.out.println("Matricula do retirado: " + node.matricula);
+          System.out.println("Matricula do retirado: " + matriculaResult);
           break;
         case 3:
           fifo.display();
