@@ -23,7 +23,7 @@ public class Fifo {
     if (this.initial == null)
       return null;
     var node = this.initial;
-    this.initial = this.initial.next;
+    this.initial = node.next;
     this.initial.previous = null;
     return node;
   }
