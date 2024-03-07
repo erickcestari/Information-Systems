@@ -1,0 +1,3 @@
+*.class
+.next
+node_modules
