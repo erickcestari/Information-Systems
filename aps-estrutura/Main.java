@@ -30,6 +30,10 @@ public class Main {
           break;
         case 2:
           Node node = fifo.shift();
+          if (node == null) {
+            System.out.println("Base vazia.");
+            break;
+          }
           System.out.println("Matricula do retirado: " + node.matricula);
           break;
         case 3:

@@ -20,6 +20,8 @@ public class Fifo {
   }
 
   public Node shift() {
+    if (this.initial == null)
+      return null;
     var node = this.initial;
     this.initial = this.initial.next;
     this.initial.previous = null;
@@ -79,6 +81,8 @@ public class Fifo {
       count++;
       aux = aux.next;
     }
+    if (count == 0)
+      return 0;
     return sum / count;
   }
 }
