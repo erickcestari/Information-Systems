@@ -1,5 +1,3 @@
-// Erick Cestari
-
 import java.util.Scanner;
 
 public class VBinaryTree {
