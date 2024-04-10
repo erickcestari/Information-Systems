@@ -8,8 +8,12 @@ public class Main {
     // System.out.println();
     // vBTree.pos_ordem(0);
 
-    var arvore = new DynamicBinaryTree();
-    arvore.buildTree(null, 's', 0);
-    arvore.printPreOrderLeft(arvore.getRoot());
+    // var tree = new DynamicBinaryTree();
+    // tree.buildTree(null, 's', 0);
+    // tree.printPreOrderLeft(tree.getRoot());
+
+    var tree = new DynamicThirdTree();
+    tree.buildTree(null, 's', 0);
+    tree.printPreOrderLeft(tree.getRoot());
   }
 }
