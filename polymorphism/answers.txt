@@ -1,0 +1,12 @@
+1)
+Polimorfismo e uma forma de reutilizar classes e funcoes, para diminuir duplicacao do codigo. Alem disso o polimorfismo permite que objetos de diferentes classes sejam tratados de maneira uniforme.
+
+2)
+1 - Universal Inclusão - Classe pai que cria um padrao uniforme entre os filhos
+2 - Sobreposicao de metodo - Criacao de metodos com o mesmo nome, mas que podem utilizar tipos de parametros ou retornos diferentes e mudar o funcionamento da funcao dependendo desses tipos. 
+3 - Generic - Uma classe que pode ser criado utilizando um tipo generic, ou seja ao criar a classe e inserido o tipo.
+4 - Ad-Hoc Coercao - Sobrepor metodos da classe pai.
+
+5)
+Ad-Hoc Coercao - modifica o metodo da classe pai de mostrarDados()
+
