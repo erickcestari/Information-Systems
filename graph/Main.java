@@ -116,6 +116,7 @@ public class Main {
     addEdge(graph, "FIP", "AUGUSTO-BAUER", 7);
     addEdge(graph, "PAYSANDU", "SHOPPING-GRACHER", 3);
     addEdge(graph, "PAYSANDU", "AUGUSTO-BAUER", 3);
+    addEdge(graph, "PAYSANDU", "FIP", 8);
     addEdge(graph, "AUGUSTO-BAUER", "SHOPPING-GRACHER", 1);
 
     String[] vertices = graph.keySet().toArray(new String[0]);
